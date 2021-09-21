@@ -76,6 +76,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         when (item.itemId) {
             R.id.hybrid_map ->{
                 map.mapType = GoogleMap.MAP_TYPE_HYBRID
+
             }
             R.id.terrain_map ->{
                 map.mapType = GoogleMap.MAP_TYPE_TERRAIN
